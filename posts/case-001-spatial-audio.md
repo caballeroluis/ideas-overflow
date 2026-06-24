@@ -56,7 +56,7 @@ Instead of traditional, rigid regression models, we can leverage **Multimodal La
 
 * **The Dataset Alignment:** We train an ensemble classifier by feeding it thousands of synthetic Boundary Element Method (BEM) acoustic simulations matched with real-world human head-tracking loops.
 * **The Loss Function:** The model is optimized using a contrastive loss function that minimizes the distance between predicted structural ear morphology and the behavioral phase-alignment thresholds captured during the rotation scan.
-* **The Output:** The network outputs a highly optimized, custom **Head-Related Transfer Function (HRTF)** matrix in seconds. The LLM translates user behavioral feedback directly into continuous spatial audio parameters, mapping acoustic shadows with unprecedented precision at absolute zero laboratory cost.
+* **The Output:** The network outputs a highly optimized, custom **Head-Related Transfer Function (HRTF)** matrix in seconds. The LLM translates user behavioral feedback directly into continuous spatial audio parameters, mapping acoustic shadows with unprecedented precision—shifting the overhead from traditional hardware labs to raw GPU compute.
 
 In systems engineering, novel answers to complex structural problems emerge from decoding anomalies under a microscope.
 
