@@ -2,6 +2,9 @@
 
 Welcome to my raw core dump. This is an open space where I offload random ideas, realizations, and reflections so they can go out and fly around.
 
+## 📂 Explore the Log
+*   🔌 [`/posts/case-001-spatial-audio.md`](./posts/case-001-spatial-audio.md) - Profiling Hardware Telemetry by Ear & Multimodal Spatial Audio Calibration
+
 ---
 ## 📄 License
 This repository is open-source and licensed under the **MIT License**.
