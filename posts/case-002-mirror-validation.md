@@ -1,5 +1,7 @@
 # Case 002: Passive Geometric Authentication — Defeating Real-Time Deepfakes with Analog Reflections
 
+<img width="1185" height="893" alt="espejito" src="https://github.com/user-attachments/assets/61c4088a-f9d6-4826-a191-9790393a4aae" />
+
 This module outlines a zero-trust, low-cost architectural framework to validate remote identity streams. Instead of engaging in a resource-intensive AI-detection arms race, this protocol introduces macro-geometric physics into the video capture matrix to break generative synthesis pipelines.
 
 ## 🧠 The Core Vulnerability of Generative Spoofing
