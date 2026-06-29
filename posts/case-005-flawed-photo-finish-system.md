@@ -1,10 +1,10 @@
 # 1. Reescribimos el archivo completo asegurando todas las URLs reales e inexpugnables
-cat << 'EOF' > ~/ideas-overflow/posts/case-005-flawed-photo-finish-system.md
+
+<img width="1500" height="996" alt="Warinerbeijing" src="https://github.com/user-attachments/assets/24914f38-0926-470e-be04-aedb0ff4b94b" />
+
 # Case 005: Flawed Photo-Finish System
 
 The traditional photo-finish layout used in Olympic track races contains a native geometric and optical bias that systematically favors specific runners based on their lane distance to the camera.
-
-<img width="1500" height="996" alt="Warinerbeijing" src="https://github.com" />
 
 ## 🌀 The Rolling Shutter & Line-Scan Anomaly
 A photo-finish camera is a **line-scan camera** that continuously captures a single vertical slice of pixels aligned with the finish line, recording changes over time from top to bottom (rolling shutter effect).
