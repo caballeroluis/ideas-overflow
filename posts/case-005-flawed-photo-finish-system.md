@@ -4,12 +4,12 @@
 
 # Case 005: Flawed Photo-Finish System
 
-The traditional photo-finish layout used in Olympic track races contains a native geometric and optical bias that systematically favors specific runners based on their lane distance to the camera.
+The traditional photo-finish layout used in Olympic athletics track races contains a native geometric and optical bias that systematically favors specific runners based on their lane distance to the camera.
 
 ## The Rolling Shutter & Line-Scan Anomaly
 A photo-finish camera is a **line-scan camera** that continuously captures a single vertical slice of pixels aligned with the finish line, recording changes over time from top to bottom (rolling shutter effect).
 
-In a standard track layout architecture (as shown in the Beijing 2008 asset above):
+In a standard athletics track layout architecture (as shown in the Beijing 2008 asset above):
 1. The **furthest lane** from the camera (Lane 1) maps to the **top edge** of the captured image.
 2. The **closest lane** to the camera (Lane 9) maps to the **bottom edge** of the image, right next to the lens.
 
@@ -31,7 +31,7 @@ The definitive scientific proof of this hardware bias consists of executing the 
 
 1. **The Cube Launch:** Launch a geometrically perfect 3D solid cube at maximum velocity across the finish line.
 2. **Camera Position Audit:** Capture the object's transit while swapping the camera setup across different geometric configurations (standard vertical side-angle vs. our horizontal parallel zenith alignment).
-3. **Deformity Analysis:** Evaluate the resulting temporal composite image. If the cube exhibits any asymmetrical warping or oblique edge skewing, it empirically proves that the hardware introduces a row-processing micro-lag—directly translating into an unfair timing advantage or disadvantage for specific lanes across the track layout.
+3. **Deformity Analysis:** Evaluate the resulting temporal composite image. If the cube exhibits any asymmetrical warping or oblique edge skewing, it empirically proves that the hardware introduces a row-processing micro-lag—directly translating into an unfair timing advantage or disadvantage for specific lanes across the athletics track layout.
 
 ## Empirical References and Case Studies
 For a deeper audit on standard industrial implementation, reference the official coverage:
