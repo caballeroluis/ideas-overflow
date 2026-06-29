@@ -1,5 +1,7 @@
 # Case 005: Flawed Photo-Finish System
 
+<img width="1500" height="996" alt="Warinerbeijing" src="https://github.com/user-attachments/assets/8f11ae03-10b9-4011-b6c1-d489b7d46b89" />
+
 The traditional photo-finish layout used in Olympic track races contains a native geometric and optical bias that systematically favors specific runners based on their lane distance to the camera.
 
 ## 🌀 The Rolling Shutter & Line-Scan Anomaly
@@ -11,7 +13,6 @@ In a standard track setup:
 
 Because the camera sensor reads and extracts pixel data sequentially from the top of the frame moving downwards, **the light coming from the furthest runner is processed microseconds before the light coming from the closest runner**. At Olympic sprint speeds, this tiny gap in pixel serialization creates a physical, unfair time-hiding advantage on the final composite image.
 # Actualizamos la sección de la solución con tu corrección exacta de hardware
-cat << 'EOF' >> ~/ideas-overflow/posts/case-005-flawed-photo-finish-system.md
 
 ## 🛠️ The Absolute Solution: Parallel Horizontal Slit
 The side-angle or simple elevated placement does not fix the sensor lag if the line-scan grid remains vertical. The true structural fix requires matching the physical reading trajectory with the chronological plane:
@@ -25,3 +26,6 @@ For a deeper audit on standard industrial implementation, reference the official
 *   [Historical Case Review](https://www.dakotaphotos.es/fotografia-de-deportes-las-5-mejores-photo-finish/) — Practical examples by Dakota Photos showcasing elevated overhead camera structures in cycling and winter sports.
 *   [Rolling Shutter Technical Overview](https://es.wikipedia.org/wiki/Rolling_shutter) — Detailed breakdown by Wikipedia explaining sequential sensor readout, skew distortion, and spatial-temporal anomalies.
 *   [DPReview Rolling Shutter Video Analysis](https://dpreview.com) — High-end hardware breakdown by DPReview with side-by-side visual examples of sensor readout lag.
+
+![Beijing 2008 400m Finish Line](./images/case-005-beijing.jpg)
+*Figure 2: David Neville diving across the finish line at the Beijing 2008 Olympic Games 400m final. Photo by Jmex60, licensed under [CC BY-SA 3.0](https://creativecommons.org).*
