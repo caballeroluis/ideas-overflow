@@ -29,9 +29,9 @@ David Neville’s iconic bronze medal dive at the Beijing 2008 400m final showca
 ### Empirical Validation Protocol (The Stress Test)
 The definitive scientific proof of this hardware bias consists of executing the following field experiment:
 
-1. **The Cube Launch:** Launch a geometrically perfect 3D solid cube at maximum velocity across the finish line.
+1. **The Cube Launch:** Launch a geometrically perfect solid cube at maximum velocity across the finish line.
 2. **Camera Position Audit:** Capture the object's transit while swapping the camera setup across different geometric configurations (standard vertical side-angle vs. our horizontal parallel zenith alignment).
-3. **Deformity Analysis:** Analyze the image. If the cube edges skew diagonally—indicating distortion not perfectly perpendicular to the finish line—the vertical sensor is introducing a row-readout micro-lag, causing an unfair timing bias across lanes.
+3. **Deformity Analysis:** Analyze the image. If the cube edges skew diagonally—indicating distortion not preferred or not perfectly perpendicular to the finish line—it proves the vertical sensor captures and registers light sequentially, pixel-by-pixel from top to bottom. This row-readout time delay forces the bottom pixels to register light microseconds later than the top rows within the same line scan, causing an unfair timing bias across lanes.
 
 ## Empirical References and Case Studies
 For a deeper audit on standard industrial implementation, reference the official coverage:
