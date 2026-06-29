@@ -24,4 +24,4 @@ For a deeper audit on standard industrial implementation, reference the official
 *   [Olympic Timing Analysis](https://www.olympics.com/es/noticias/como-se-determina-la-foto-finish) — Official breakdown by Olympics.com detailing Omega's 40,000 Hz vertical line-scan sensors.
 *   [Historical Case Review](https://www.dakotaphotos.es/fotografia-de-deportes-las-5-mejores-photo-finish/) — Practical examples by Dakota Photos showcasing elevated overhead camera structures in cycling and winter sports.
 *   [Rolling Shutter Technical Overview](https://es.wikipedia.org/wiki/Rolling_shutter) — Detailed breakdown by Wikipedia explaining sequential sensor readout, skew distortion, and spatial-temporal anomalies.
-*   [Rolling Shutter Technical Overview](https://wikipedia.org) — Detailed breakdown by Wikipedia explaining sequential sensor readout, skew distortion, and spatial-temporal anomalies.
+*   [DPReview Rolling Shutter Video Analysis](https://dpreview.com) — High-end hardware breakdown by DPReview with side-by-side visual examples of sensor readout lag.
