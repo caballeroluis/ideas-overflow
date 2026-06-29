@@ -30,6 +30,4 @@ For a deeper audit on standard industrial implementation, reference the official
 
 ---
 *Technical Research Lab. Beijing 2008 asset courtesy of Jmex60 (CC BY-SA 3.0).*
-EOF
 
-# 2. Guardamos el fix definitivo sin rastro de enlaces rotos y lo subimos
