@@ -26,10 +26,10 @@ David Neville’s iconic bronze medal dive at the Beijing 2008 400m final showca
 
 ## 🌐 Empirical References and Case Studies
 For a deeper audit on standard industrial implementation, reference the official coverage:
-*   [Olympic Timing Analysis](https://olympics.com) — Official breakdown by Olympics.com detailing Omega's 40,000 Hz vertical line-scan sensors.
-*   [Historical Case Review](https://dakotaphotos.es) — Practical examples by Dakota Photos showcasing elevated overhead camera structures.
-*   [Rolling Shutter Technical Overview](https://wikipedia.org) — Detailed breakdown by Wikipedia explaining sequential sensor readout, skew distortion, and spatial-temporal anomalies.
-*   [DPReview Rolling Shutter Video Analysis](https://dpreview.com) — High-end hardware breakdown by DPReview with side-by-side visual examples of sensor readout lag.
+*   [Olympic Timing Analysis](https://www.olympics.com/es/noticias/como-se-determina-la-foto-finish) — Official breakdown by Olympics.com detailing Omega's 40,000 Hz vertical line-scan sensors.
+*   [Historical Case Review](https://www.dakotaphotos.es/fotografia-de-deportes-las-5-mejores-photo-finish/) — Practical examples by Dakota Photos showcasing elevated overhead camera structures.
+*   [Rolling Shutter Technical Overview](https://es.wikipedia.org/wiki/Rolling_shutter) — Detailed breakdown by Wikipedia explaining sequential sensor readout, skew distortion, and spatial-temporal anomalies.
+*   [DPReview Rolling Shutter Video Analysis](https://www.dpreview.com/videos/3277074851/rolling-shutter-explained-with-simple-side-by-side-examples) — High-end hardware breakdown by DPReview with side-by-side visual examples of sensor readout lag.
 
 ---
 *Technical Research Lab. Beijing 2008 asset courtesy of Jmex60 (CC BY-SA 3.0).*
