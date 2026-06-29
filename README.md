@@ -7,6 +7,7 @@ Welcome to my raw core dump. This is an open space where I offload random ideas,
 *   🪞 [`/posts/case-002-mirror-validation.md`](./posts/case-002-mirror-validation.md) - Passive Geometric Authentication — Defeating Real-Time Deepfakes with Analog Reflections
 *   📷📷 `[WIP]` [`/posts/case-003-mirror-validation-bis-stereoscopic-training.md`](./posts/idea-003-mirror-validation-bis-stereoscopic-training.md) - Human-in-the-Loop Stereoscopic Training — Dual-Image Neuro-Visual Verification Method
 *   📞 [`/posts/case-004-packet-voice-lag-vs-analogue-voice-cloning.md`](./posts/idea-004-packet-voice-lag-vs-analogue-voice-cloning.md) - Packet Voice Lag vs. Analogue — The Chronological Hiding Place for Real-Time Voice Cloning
+*   🏃‍♂️ [`/posts/case-005-flawed-photo-finish-system.md`](./posts/case-005-flawed-photo-finish-system.md) - Flawed Photo-Finish System — Optical and Line-Scan Perspective Bias Favoring the Runner Furthest from the Camera
 
 ---
 ## 📄 License
