@@ -6,7 +6,7 @@
 
 The traditional photo-finish layout used in Olympic track races contains a native geometric and optical bias that systematically favors specific runners based on their lane distance to the camera.
 
-## 🌀 The Rolling Shutter & Line-Scan Anomaly
+## The Rolling Shutter & Line-Scan Anomaly
 A photo-finish camera is a **line-scan camera** that continuously captures a single vertical slice of pixels aligned with the finish line, recording changes over time from top to bottom (rolling shutter effect).
 
 In a standard track layout architecture (as shown in the Beijing 2008 asset above):
@@ -15,16 +15,25 @@ In a standard track layout architecture (as shown in the Beijing 2008 asset abov
 
 Because the camera sensor reads and extracts pixel data sequentially from the top of the frame moving downwards, **the light coming from Lane 1 (top) is processed microseconds BEFORE the light coming from Lane 9 (bottom)**. At Olympic sprint speeds, this tiny gap in pixel serialization creates a physical, unfair advantage for the far lanes, imposing a silent hardware penalty on the runner closest to the lens layout.
 
-## 🛠️ The Absolute Solution: Parallel Horizontal Slit
+## The Absolute Solution: Parallel Horizontal Slit
 The side-angle placement does not fix the sensor lag if the line-scan grid remains vertical. The true structural fix requires matching the physical reading trajectory with the chronological plane:
 
 *   **Horizontal Camera Alignment:** Rotate the line-scan camera 90 degrees, aligning the sensor array perfectly **horizontal and parallel** to the finish line.
 *   **Simultaneous Cross-Lane Sweeping:** By sweeping the pixel array horizontally across the lanes instead of slicing from top to bottom, the sequential data readout registers all lanes under the exact same nanosecond time-stamp. Distance-to-lens lag is completely flattened, making the system 100% fair for high-stakes competition.
 
-## 🏃‍♂️ Case Study: David Neville's Beijing 2008 Agony
+## Case Study: David Neville's Beijing 2008 Agony
 David Neville’s iconic bronze medal dive at the Beijing 2008 400m final showcases this reality. Running in the closest position to the lens axis (Lane 9, bottom edge), his light was serialized last in the sensor line-sweep. He literally had to drag his skin against the track to overcome both the split-second timer and the sensor's sequential readout bias.
 
-## 🌐 Empirical References and Case Studies
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/f6963b68-d787-4f21-be0f-bd90557f0af8" />
+
+### Empirical Validation Protocol (The Stress Test)
+The definitive scientific proof of this hardware bias consists of executing the following field experiment:
+
+1. **The Cube Launch:** Launch a geometrically perfect 3D solid cube at maximum velocity across the finish line.
+2. **Camera Position Audit:** Capture the object's transit while swapping the camera setup across different geometric configurations (standard vertical side-angle vs. our horizontal parallel zenith alignment).
+3. **Deformity Analysis:** Evaluate the resulting temporal composite image. If the cube exhibits any asymmetrical warping or oblique edge skewing, it empirically proves that the hardware introduces a row-processing micro-lag—directly translating into an unfair timing advantage or disadvantage for specific lanes across the track layout.
+
+## Empirical References and Case Studies
 For a deeper audit on standard industrial implementation, reference the official coverage:
 *   [Olympic Timing Analysis](https://www.olympics.com/es/noticias/como-se-determina-la-foto-finish) — Official breakdown by Olympics.com detailing Omega's 40,000 Hz vertical line-scan sensors.
 *   [Historical Case Review](https://www.dakotaphotos.es/fotografia-de-deportes-las-5-mejores-photo-finish/) — Practical examples by Dakota Photos showcasing elevated overhead camera structures.
