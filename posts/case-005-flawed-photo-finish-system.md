@@ -26,14 +26,28 @@ David Neville’s iconic bronze medal dive at the Beijing 2008 400m final showca
 
 <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/f6963b68-d787-4f21-be0f-bd90557f0af8" />
 
-### Empirical Validation Protocol (The Stress Test)
+### Validation Protocol (The Stress Test)
 The definitive scientific proof of this hardware bias consists of executing the following field experiment:
 
 1. **The Cube Launch:** Launch a geometrically perfect solid cube at maximum velocity across the finish line.
 2. **Camera Position Audit:** Capture the object's transit while swapping the camera setup across different geometric configurations (standard vertical side-angle vs. our horizontal parallel zenith alignment).
 3. **Deformity Analysis:** Analyze the image. If the cube edges skew diagonally—indicating distortion not preferred or not perfectly perpendicular to the finish line—it proves the vertical sensor captures and registers light sequentially, pixel-by-pixel from top to bottom. This row-readout time delay forces the bottom pixels to register light microseconds later than the top rows within the same line scan, causing an unfair timing bias across lanes.
 
-## Empirical References and Case Studies
+## The Analog Flash & Laser Grid Hypothesis
+
+Assuming digital sensors will always introduce some row-serialization bias due to sequential pixel reading ($\Delta t > 0$), we are exploring an alternative approach based on **analog film and a synchronized flash setup**:
+
+1. **The Laser Trigger Concept:** A vertical grid of laser beams aligns with the finish line. The instant a runner cuts any laser, it triggers the system automatically.
+2. **The Sequential Analog Battery Setup:** A battery of multiple independent analog cameras—each equipped with its own dedicated high-speed flash—is preprogrammed to cover a complete continuous time range. This ensures that even if the laser trigger experiences mechanical lag, at least one camera-flash pair captures the object crossing the exact geometric finish line plane.
+
+**Democratic Latency Model:** 
+The mechanical trigger might have a tiny delay, but it affects every single lane equally. Since each photo is captured at once, any minor lag is democratic. It can be easily compensated for by adding or subtracting the exact same DPI shift horizontally to every competitor. Absolute cross-lane geometric truth is preserved.
+
+<img width="1000" height="558" alt="lasercillos" src="https://github.com/user-attachments/assets/408af3bf-4be4-4723-8108-cf8b16481469" />
+*As shown in the concept diagram above—note that for more optical precision, the cameras need to be placed closer together.*
+
+
+## References and Case Studies
 For a deeper audit on standard industrial implementation, reference the official coverage:
 *   [Olympic Timing Analysis](https://www.olympics.com/es/noticias/como-se-determina-la-foto-finish) — Official breakdown by Olympics.com detailing Omega's 40,000 Hz vertical line-scan sensors.
 *   [Historical Case Review](https://www.dakotaphotos.es/fotografia-de-deportes-las-5-mejores-photo-finish/) — Practical examples by Dakota Photos showcasing elevated overhead camera structures.
