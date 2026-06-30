@@ -35,7 +35,7 @@ The definitive scientific proof of this hardware bias consists of executing the 
 
 ## The Theoretical Analog Baseline
 
-An alternative approach would be shifting back to analog chemical film, which captures light homogeneously across the entire surface plane simultaneously, avoiding any sequential readout serialization delay ($ \Delta t = 0 $). However, this physical baseline would surely introduce other systemic bottlenecks, making it highly impractical for modern high-stakes timing.
+An alternative approach would be shifting back to analog chemical film, which captures light homogeneously across the entire surface plane simultaneously, avoiding any sequential readout serialization delay ($\Delta t=0$). However, this physical baseline would surely introduce other systemic bottlenecks, making it highly impractical for modern high-stakes timing.
 
 ## References and Case Studies
 For a deeper audit on standard industrial implementation, reference the official coverage:
