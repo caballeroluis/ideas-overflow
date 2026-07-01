@@ -3,7 +3,7 @@
 <img width="1376" height="768" alt="lasercillo" src="https://github.com/user-attachments/assets/061e4a8f-925c-4f99-805b-1c92338299e2" />
 
 ## Context & Vision
-The core architecture of this system originated years ago during a mountain trek with my brother. We were evaluating spatial localization constraints and discussing how to maintain a reliable positional handshake if separated by blind valleys, heavy snowpacks, or extreme changes in terrain slope (*cambios de rasante*). 
+The core architecture of this system originated years ago while planning a snowboarding trip with my brother. We were evaluating spatial localization constraints and discussing how to maintain a reliable positional handshake if separated by blind valleys, heavy snowpacks, or extreme changes in terrain slope (*cambios de rasante*). 
 
 The initial concept was a passive locator. However, when high-visibility green lasers that project a solid, visible atmospheric beam entered the market—followed closely by high-energy thermal lasers engineered to pierce surfaces—the blueprint evolved into an active search and rescue concept.
 
