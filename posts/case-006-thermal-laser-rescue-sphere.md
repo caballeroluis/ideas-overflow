@@ -1,5 +1,7 @@
 # [CASE-006] Autonomous Zenith-Oriented Thermal Laser Sphere for Avalanche Rescue
 
+<img width="1376" height="768" alt="lasercillo" src="https://github.com/user-attachments/assets/061e4a8f-925c-4f99-805b-1c92338299e2" />
+
 ## Context & Vision
 The core architecture of this system originated years ago during a mountain trek with my brother. We were evaluating spatial localization constraints and discussing how to maintain a reliable positional handshake if separated by blind valleys, heavy snowpacks, or extreme changes in terrain slope (*cambios de rasante*). 
 
