@@ -8,6 +8,7 @@ Welcome to my raw core dump. This is an open space where I offload random ideas,
 *   📷📷 `[WIP]` [`/posts/case-003-mirror-validation-bis-stereoscopic-training.md`](./posts/idea-003-mirror-validation-bis-stereoscopic-training.md) - Human-in-the-Loop Stereoscopic Training — Dual-Image Neuro-Visual Verification Method
 *   📞 [`/posts/case-004-packet-voice-lag-vs-analogue-voice-cloning.md`](./posts/idea-004-packet-voice-lag-vs-analogue-voice-cloning.md) - Packet Voice Lag vs. Analogue — The Chronological Hiding Place for Real-Time Voice Cloning
 *   🏃‍♂️ [`/posts/case-005-flawed-photo-finish-system.md`](./posts/case-005-flawed-photo-finish-system.md) - Flawed Photo-Finish System — Optical and Line-Scan Perspective Bias Favoring the Runner Furthest from the Camera
+*   🏔️ [`/posts/case-006-thermal-laser-rescue-sphere.md`](./posts/posts/case-006-thermal-laser-rescue-sphere.md) - Autonomous Zenith-Oriented Thermal Laser Sphere — Gravity-Independent Optical Piercing for Avalanche Localization
 
 ---
 ## 📄 License
