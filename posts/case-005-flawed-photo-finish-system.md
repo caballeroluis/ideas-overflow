@@ -1,8 +1,6 @@
-# 1. Reescribimos el archivo completo asegurando todas las URLs reales e inexpugnables
+# Case 005: Flawed Photo-Finish System
 
 <img width="1500" height="996" alt="Warinerbeijing" src="https://github.com/user-attachments/assets/24914f38-0926-470e-be04-aedb0ff4b94b" />
-
-# Case 005: Flawed Photo-Finish System
 
 The traditional photo-finish layout used in Olympic athletics track races contains a native geometric and optical bias that systematically favors specific runners based on their lane distance to the camera.
 
