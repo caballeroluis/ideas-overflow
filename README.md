@@ -12,4 +12,4 @@ Welcome to my raw core dump. This is an open space where I offload random ideas,
 
 ---
 ## 📄 License
-This repository is open-source and licensed under the **MIT License**.
+This repository is open-source and licensed under the **GNU General Public License v2.0**.
